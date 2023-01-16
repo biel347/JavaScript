@@ -1,0 +1,15 @@
+Formatting strings using nodejs
+
+> name = 'biel'
+'biel'
+> age = 18
+18
+> grade = 7.5
+7.5
+
+> 'The student ' + name + ' with ' + age + ' years old got grade ' + grade    // Using concatenation 
+'The student biel with 18 years old got grade 7.5'
+
+> `The student ${name} with ${age} years old got grade ${grade}`             // Using template string
+'The student biel with 18 years old got grade 7.5'
+
