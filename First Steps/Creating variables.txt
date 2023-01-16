@@ -1,14 +1,19 @@
 Creating variables in JavaScript using nodejs
 
-var name = 'biel'
-name
+> var name = 'biel'
+> name
+'biel'
 
-var age = 18
-age
+> var age = 18
+> age
+18
 
-var n1 = 8
-var n2 = 5
-n1 + n2
+> var n1 = 8
+> var n2 = 5
+> n1 + n2
+13
 
-typeof name
-typeof age
+> typeof name
+'string'
+> typeof age
+'number'
